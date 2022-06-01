@@ -1,0 +1,236 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1>a:hover {
+    color: rgb(199, 50, 50);
+}
+
+h3>a:hover {
+    color: rgb(199, 50, 50);
+}
+h4>a:hover {
+    color: rgb(199, 50, 50);
+}
+
+body {
+    font-family: Tahoma;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: radial-gradient(#a08e4c, rgba(255, 0, 0, 0.067));
+    color: brown;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: bolder;
+}
+
+header {
+    width: 100%;
+    height: 8vh;
+    background: linear-gradient(to bottom, #709192, #00e3eb);
+    text-align: center;
+    padding: 0.6em;
+    clear: both;
+    overflow: hidden;
+}
+
+.questions {
+    float: left;
+    width: 50%;
+    height: 82vh;
+    background: transparent;
+    border: 3px solid brown;
+    text-align: center;
+    align-items: center;
+    color: black;
+    align-items: center;
+    position: relative;
+}
+
+.answers {
+    float: left;
+    width: 50%;
+    height: 82vh;
+    background: transparent;
+    border: 3px solid brown;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    font-size: 1rem;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    background: linear-gradient(to top, #709192, #00e3eb);
+    padding: 0.8em;
+    overflow: hidden;
+    color: brown;
+    clear: both;
+}
+
+.ATitle {
+    margin-top: 4rem;
+}
+
+.check {
+    width: 10rem;
+    height: 5rem;
+    background: red;
+    border: none;
+    color: black;
+    font-weight: 600;
+
+}
+
+.check:hover,
+.check:focus {
+    background-color: rgb(158, 85, 85);
+    box-shadow: 5px 5px 5px rgb(80, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+.next {
+    width: 10rem;
+    height: 5rem;
+    background: red;
+    border: none;
+    color: black;
+    font-weight: 600;
+    word-wrap: break-word;
+    float: left;
+    margin-left: 10vw;
+}
+
+.next:hover,
+.next:focus {
+    background-color: rgb(158, 85, 85);
+    box-shadow: 5px 5px 5px rgb(80, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+.info {
+    background-color: green;
+}
+
+.info2 {
+    background-color: rgb(255, 8, 0);
+}
+
+.ref {
+    width: 10rem;
+    height: 5rem;
+    background: red;
+    border: none;
+    color: black;
+    font-weight: 600;
+    float: right;
+    margin-right: 10vw;
+}
+
+.selectCat {
+    width: 10rem;
+    height: 5rem;
+    background: red;
+    border: none;
+    color: black;
+    font-weight: 600;
+}
+
+.ref:hover,
+.selectCat:hover,
+.ref:focus,
+.selectCat:focus {
+    background-color: rgb(158, 85, 85);
+    box-shadow: 5px 5px 5px rgb(80, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+select {
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 90%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 10px auto;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
+    border-radius: .5em;
+    background-color: #fff;
+}
+
+select:hover,
+select:focus {
+    box-shadow: 5px 5px 5px #666;
+    transition: 0.3s ease-in-out;
+}
+
+button,
+.check {
+    border-radius: 12px;
+}
+
+button,
+.check {
+    border-radius: 12px;
+}
+
+input[type=number] {
+    -webkit-appearance: none;
+    border: none;
+    max-width: 100%;
+    width: 50%;
+    text-align: center;
+    height: 2rem;
+    font-size: 200%;
+    background-color: cadetblue;
+    border-radius: 12px;
+}
+
+input[type=number]:hover,
+input[type=number]:focus {
+    box-shadow: 5px 5px 5px #666;
+    transition: 0.3s ease-in-out;
+}
+
+fieldset {
+    margin: 2rem;
+    float: left;
+    border: dashed cadetblue;
+    padding: 1em;
+    color: brown;
+    position: absolute;
+    bottom: 0;
+}
+
+img {
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    vertical-align: middle;
+}
+footer>a:hover{
+	color: rgb(199, 50, 50);
+}
